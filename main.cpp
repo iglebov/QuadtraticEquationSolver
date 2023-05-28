@@ -2,11 +2,11 @@
 #include <cmath>
 using namespace std;
 
-double round_to_2(float number) {
+float round_to_2(float number) {
     return int(number*100) / 100.0;
 }
 
-double find_discriminant(float a, float b, float c) {
+float find_discriminant(float a, float b, float c) {
     return pow(b, 2) - 4*a*c;
 }
 
